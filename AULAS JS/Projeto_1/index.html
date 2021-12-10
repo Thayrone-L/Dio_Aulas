@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css"/>
-        <script src="asets/js/scripts.js"></script>
-        <title>Teste</title>
-    </head>
-    <body>
-
-    </body>
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Contador</title>
+</head>
+<body>
+    <h1>Contador de energias e cartas</h1>
+    <h2>Este é um contador de energias e cartas para Axie.</h2>
+    <p>Selecione as cartas de acordo com o seu custo de energia.</p>
+    <p>para cartas que geram ou roubam energia, usar contador de energia extra.</p> 
+    <div id="counter">
+        
+        <span id="currentEnergy">0</span>
+        <span id="currentCard">0</span>
+        
+        <button name="novo" onclick="newturn()">Novo turno</button>
+    </div>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
